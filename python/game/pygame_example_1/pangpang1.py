@@ -10,9 +10,9 @@ pygame.display.set_caption("Pang Pang!")
 
 clock = pygame.time.Clock()
 
-background = pygame.image.load("/home/ktchoi71/Workspace/myProject/python/pygame_example_1/background.png")
+background = pygame.image.load("/home/ktchoi71/Workspace/myProject/python/game/pygame_example_1/background.png")
 
-character = pygame.image.load("/home/ktchoi71/Workspace/myProject/python/pygame_example_1/character.png")
+character = pygame.image.load("/home/ktchoi71/Workspace/myProject/python/game/pygame_example_1/character.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -24,7 +24,7 @@ to_y = 0
 
 character_speed = 0.3
 
-enemy = pygame.image.load("/home/ktchoi71/Workspace/myProject/python/pygame_example_1/enemy.png")
+enemy = pygame.image.load("/home/ktchoi71/Workspace/myProject/python/game/pygame_example_1/enemy.png")
 enemy_size = enemy.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
