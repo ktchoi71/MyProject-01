@@ -1,4 +1,4 @@
-# RPA(Robotic Process Automation) for Game 
+# Game 
 
 파이썬을 이용한 게임 프로그래밍 공부
 
